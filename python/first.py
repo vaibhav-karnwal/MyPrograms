@@ -1,0 +1,12 @@
+a=34
+b=35
+sum=a+b
+print(sum)
+sub=a-b
+print(sub)
+multi=a*b
+print(multi)
+Div=a/b
+print(Div)
+print(a>b)
+print(a<b)
