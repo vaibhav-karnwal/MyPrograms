@@ -1,0 +1,26 @@
+import java.util.*;
+class reverse
+{
+public static void main(String []args)
+{
+int x,i,j,n,count=0,sum=0;
+/*System.out.println("ch");*/
+Scanner scan= new Scanner(System.in);
+int t=scan.nextInt();
+for (i=0;i<t;i++)
+{
+	/*System.out.println("n-workers");*/
+	n=scan.nextInt();
+	/*System.out.println("num");*/
+	int arr[]=new int[n];
+		for(x=0;x<n;x++)
+		{
+			arr[x]=scan.nextInt();
+			}
+		for(y=n-1;y>=0;y++)
+		{
+		System.out.print(arr[y]+" ");
+}		
+}
+}
+}
